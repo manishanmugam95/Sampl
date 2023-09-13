@@ -1,0 +1,9 @@
+1.git clone projectUrl---->Gokul branch
+2.master change--->pull--->gokul--->git pull origin master
+        |
+Team branch(stage)
+
+git stash()--->concept--->git pull---->git stash apply
+
+git add . -->git commit -m"message"--->git pull--->git push(local --->staging push)
+(feature branch[source Branch]--->target branch)--->push_---->need to use Merge[git checkout target branch--->git merge Stage]
